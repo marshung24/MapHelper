@@ -1,0 +1,24 @@
+{
+    "name": "marsapp/maphelper",
+    "description": "Assist in processing the related actions of the mapping table.",
+    "homepage": "https://github.com/marshung24/MapHelper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mars Hung",
+            "email": "tfaredxj@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "marsapp\\helper\\mapping\\": "src", "marsapp\\helper\\test\\mapping\\": "test"}
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "require": {
+        "marsapp/arrayhelper": "^0.3",
+        "php": "^7"
+    }
+}
